@@ -1,0 +1,17 @@
+Package: m6APrediction
+Type: Package
+Title: Prediction of m6A RNA Modification Sites
+Version: 1.0.0
+Author: Yuxin Guo [aut, cre]
+Maintainer: Yuxin Guo <yuxin.guo23@student.xjtlu.edu.cn>
+Description: This package predicts m6A RNA modification probability and status 
+    using a trained random forest model. It includes functions for both 
+    single-site and multi-site prediction.
+Depends: R (>= 3.5.0)
+Imports:
+    randomForest,
+    stats
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.3
