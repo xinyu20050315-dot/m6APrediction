@@ -1,12 +1,12 @@
 ---
-title: "README"
-output: github_document
 editor_options: 
   markdown: 
     wrap: 72
 ---
 
-## **m6APrediction** 
+# README
+
+## **m6APrediction**
 
 ### **1.Introduction**
 
@@ -15,7 +15,7 @@ using a trained random forest model.
 
 The package provides:
 
--   **dna_encoding()**: Encodes 5-mer DNA sequences (e.g. "ATCGA") into
+-   **dna_encoding()**: Encodes 5-mer DNA sequences (e.g. “ATCGA”) into
     position-wise nucleotide features (nt_pos1–nt_pos5) for model input.
 
 -   **prediction_multiple()**: Uses a fitted random forest model to
@@ -84,9 +84,9 @@ head(result_multiple)
 
 If you construct the feature table manually, it must include at least:
 
-gc_content RNA_type ("mRNA", "lincRNA", "lncRNA", "pseudogene")
+gc_content RNA_type (“mRNA”, “lincRNA”, “lncRNA”, “pseudogene”)
 
-RNA_region ("CDS", "intron", "3'UTR", "5'UTR")
+RNA_region (“CDS”, “intron”, “3’UTR”, “5’UTR”)
 
 exon_length
 
@@ -94,16 +94,16 @@ distance_to_junction
 
 evolutionary_conservation
 
-DNA_5mer (a 5-mer like "ATGCA")
+DNA_5mer (a 5-mer like “ATGCA”)
 
 prediction_multiple() will:
 
 Encode DNA_5mer into nt_pos1–nt_pos5 using dna_encoding().
 
-Call predict() on the random forest model to obtain "Positive" class
+Call predict() on the random forest model to obtain “Positive” class
 probabilities.
 
-Add: predicted_m6A_prob predicted_m6A_status ("Positive" / "Negative")
+Add: predicted_m6A_prob predicted_m6A_status (“Positive” / “Negative”)
 
 #### #3.2 Example: Single-site prediction (prediction_single)
 
