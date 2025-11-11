@@ -1,8 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
 
 # README
 
@@ -135,3 +130,4 @@ To demonstrate the strong predictive power of the model:
 
 These plots highlight the model’s accuracy and precision, serving as an
 effective visual showcase for your GitHub page.
+
