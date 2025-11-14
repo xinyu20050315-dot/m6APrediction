@@ -1,6 +1,3 @@
-README
-================
-
 ## **m6APrediction**
 
 ### **1.Introduction**
@@ -154,3 +151,4 @@ for m6A site prediction.
 
 These plots highlight the model’s accuracy and precision, serving as an
 effective visual showcase for GitHub page.
+
